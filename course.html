@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helwan</title>
+    <link rel="icon" type="image/png" href="./assets/images/Helwan_University_Logo.jpg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./assets/images/helwan-logo.png" alt="helwan logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about-us.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Programs</h1>
+    </div>
+
+
+
+
+    <!----------     course content   ----------->
+
+
+    <section class="programs">
+        <h1>Programs We Offer</h1>
+        <p>Helwan University offers a wide range of business programs at the bachelor's and postgraduate levels</p>
+
+        <div class="row">
+            <div class="program-col">
+                <h3>BIS</h3>
+                <p>Graduates of the Business Information Systems program are distinguished by their qualification for
+                    many diverse and different job opportunities in the local, regional and global labor markets, and
+                    perhaps the qualification obtained by the student in the program not only qualifies him to obtain a
+                    job in the following fields, but to become a distinguished expert and an accomplished leader in the
+                    future, especially in the information systems sector.</p>
+            </div>
+            <div class="program-col">
+                <h3>FMI</h3>
+                <p>The program grants a bachelor's degree in one of the unique disciplines enjoyed by the Faculty of
+                    Commerce and Business Administration, which is the specialization of markets and financial
+                    establishment. Graduates of the FMI program are eligible for many different job opportunities in
+                    local, regional and international labour markets.</p>
+            </div>
+            <div class="program-col">
+                <h3>ُEnglish Section</h3>
+                <p>The English Section of the Faculty of Commerce and Business Administration at Helwan University
+                    offers business-related majors entirely taught in English. The program provides undergraduate
+                    students with a range of specializations designed to meet the demands of the modern job market.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!----------     facilities section   ----------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Equipped with advanced labs, libraries, and sports centers, Helwan offers an environment built for innovation
+            and growth.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./assets/images/central-library.jpeg">
+                <h3>World Class Library</h3>
+                <p>The university library offers a rich collection of books, research materials, and digital resources
+                    that support students and staff in their academic journey.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./assets/images/football-field.webp">
+                <h3>Football Field</h3>
+                <p>Helwan’s football field provides a professional space for training, tournaments, and student
+                    activities, encouraging teamwork and healthy competition.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./assets/images/indoor-hall.jpeg">
+                <h3>Indoor Hall</h3>
+                <p>The indoor hall hosts various sports and events throughout the year, giving students a modern space
+                    to stay active and connected.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!----------     footer section   ----------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Helwan University is one of Egypt’s leading public universities, known for its strong focus on innovation,
+            research, and practical education. Located in Cairo, the university brings together a wide range of
+            disciplines<br> — from engineering and business to arts and education — preparing students to meet modern
+            professional and societal challenges.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <p>Made by <i class="fa-solid fa-laptop-code"></i> Mazen Hazem</p>
+    </section>
+
+
+
+
+
+    <!-- java script for the toggel menu -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu() {
+            navLinks.style.right = '0'
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px'
+        }
+
+    </script>
+</body>
+
+</html>

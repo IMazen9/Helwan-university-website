@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helwan</title>
+    <link rel="icon" type="image/png" href="./assets/images/Helwan_University_Logo.jpg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./assets/images/helwan-logo.png" alt="helwan logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about-us.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </div>
+
+
+
+
+    <!----------     about us content   ----------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Helwan provides diverse programs in multiple disciplines.</h1>
+                <p>Helwan University is a distinguished public institution in Egypt, recognized for its commitment to
+                    academic excellence, innovation, and practical learning. The university offers a wide range of
+                    diverse programs that prepare students to meet the needs of a rapidly changing world.
+
+                    Through its specialized faculties, Helwan University provides exceptional programs in business, such
+                    as Business Information Systems (BIS) and Financial Markets and Institutions (FMI), alongside a
+                    variety of engineering disciplines that foster creativity and technical expertise.
+
+                    With its unique blend of theoretical knowledge and hands-on experience, Helwan University empowers
+                    students to develop the skills, vision, and leadership qualities needed to succeed in their careers
+                    and contribute to society.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="./assets/images/bisCampus-aboutPage.jpeg" alt="campus image">
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!----------     footer section   ----------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Helwan University is one of Egypt’s leading public universities, known for its strong focus on innovation,
+            research, and practical education. Located in Cairo, the university brings together a wide range of
+            disciplines<br> — from engineering and business to arts and education — preparing students to meet modern
+            professional and societal challenges.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <p>Made by <i class="fa-solid fa-laptop-code"></i> Mazen Hazem</p>
+    </section>
+
+
+
+
+
+    <!-- java script for the toggel menu -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu() {
+            navLinks.style.right = '0'
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px'
+        }
+
+    </script>
+</body>
+
+</html>

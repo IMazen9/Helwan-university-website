@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helwan</title>
+    <link rel="icon" type="image/png" href="./assets/images/Helwan_University_Logo.jpg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./assets/images/helwan-logo.png" alt="helwan logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about-us.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Programs for 2025</h1>
+    </div>
+
+    <!----------     blog section   ----------->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./assets/images/certificate.jpg" alt="certificate">
+                <h2>Our Certificate & Programs for 2025</h2>
+                <p>The Business Information Systems (BIS) program at Helwan University bridges the gap between business
+                    management and information technology. It is designed to prepare students for the modern business
+                    world, where technology plays a central role in every decision and operation.
+
+                    Through this program, students gain a strong foundation in business principles, data analysis,
+                    database management, systems development, and enterprise technologies. The curriculum focuses on how
+                    organizations can use information systems to improve efficiency, enhance decision-making, and
+                    achieve strategic goals.
+
+                    Graduates of the BIS program are well-equipped to work in various roles, such as business analysts,
+                    systems developers, data specialists, or IT project managers, both in Egypt and internationally. The
+                    program emphasizes practical skills, teamwork, and real-world problem-solving, enabling students to
+                    become innovative professionals capable of transforming business operations through technology.
+                </p>
+                <br>
+                <hr>
+                <br>
+                <p>
+
+                    The Financial Markets and Institutions (FMI) program at Helwan University focuses on developing deep
+                    knowledge of finance, banking, and investment systems. It equips students with the analytical and
+                    technical skills required to understand and navigate the complex world of global financial markets.
+
+                    The program covers key areas such as financial analysis, investment management, risk assessment,
+                    monetary policy, and banking operations. Students also explore how financial institutions interact
+                    with markets and economies, learning to make informed decisions in fast-paced financial
+                    environments.
+
+                    Graduates of the FMI program are prepared for careers in banking, investment firms, insurance
+                    companies, corporate finance, and government financial agencies. With a strong emphasis on both
+                    theory and practice, the program aims to produce finance professionals capable of driving economic
+                    growth and stability through strategic financial planning and management.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+
+                    <form  class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Management</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Data Security</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Marketing</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>E-Commerce</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Operating System</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Programming</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>System Analysis</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Data Base</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Money & Banking</span>
+                    <span>14</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!----------     footer section   ----------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Helwan University is one of Egypt’s leading public universities, known for its strong focus on innovation,
+            research, and practical education. Located in Cairo, the university brings together a wide range of
+            disciplines<br> — from engineering and business to arts and education — preparing students to meet modern
+            professional and societal challenges.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <p>Made by <i class="fa-solid fa-laptop-code"></i> Mazen Hazem</p>
+    </section>
+
+
+
+
+
+    <!-- java script for the toggel menu -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu() {
+            navLinks.style.right = '0'
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px'
+        }
+
+    </script>
+</body>
+
+</html>
