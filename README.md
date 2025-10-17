@@ -5,7 +5,7 @@ A modern, responsive website for **Helwan University** that showcases academic p
 ---
 
 ## 🚀 Live Demo
-[View Website]([https://imazen9.github.io/Helwan-university-website/] 
+[View Website](https://imazen9.github.io/Helwan-university-website/) 
 
 
 ---
